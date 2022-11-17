@@ -1,2 +1,2 @@
 import('./bootstrap');
-console.log('container1')
+console.log('container')
