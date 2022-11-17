@@ -8,6 +8,7 @@ const mount = (el) => {
     el
   )
 }
+console.log('markting')
 
 if(process.env.NODE_ENV === 'development') {
   const devRoot = document.querySelector('#_marketin-dev-root')
