@@ -5,7 +5,7 @@ import { createRoot } from 'react-dom/client';
 const mount = (el) => {
   createRoot(el).render(<App />)
 }
-console.log('markting1')
+console.log('markting')
 
 if(process.env.NODE_ENV === 'development') {
   const devRoot = document.querySelector('#_marketin-dev-root')
