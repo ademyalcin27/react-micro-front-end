@@ -1,12 +1,9 @@
 import React from 'react'
-import ReactDOM from 'react-dom';
 import App from './App'
+import { createRoot } from 'react-dom/client';
 
 const mount = (el) => {
-  ReactDOM.render(
-    <App />,
-    el
-  )
+  createRoot(el).render(<App />)
 }
 console.log('markting1')
 
@@ -18,3 +15,4 @@ if(process.env.NODE_ENV === 'development') {
 }
 
 export { mount };
+
